@@ -1,0 +1,11 @@
+{
+  "name": "@tomassotech/simplekeyvaluestore",
+  "version": "1.0.2",
+  "description": "Simple extension of Map to provide a key-value store capable of maintaining itself at a specific size",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eric Tomasso <eric@tomasso.tech>",
+  "license": "MIT"
+}
