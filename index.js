@@ -1,4 +1,7 @@
 const KeyValueStore = (maxSize) => {
+    if (typeof (maxSize) !== 'number' || typeof (maxSize) !== 'undefined') {
+        throw new Error("Invalid data type used for KeyValueStore maxSize. Only numbers or undefined are allowed");
+    }
     const __store = new Map([]);
     let __keyHistory = [];
     const __removeOldestKeyFromHistory = (array) => array.slice(1);
